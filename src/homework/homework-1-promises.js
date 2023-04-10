@@ -11,6 +11,7 @@
 export const arrayHandler = (num) => {
   return new Promise((resolve) => {
     setTimeout(() => {
+      console.log(num)
       resolve(num)
     }, num * 1000)
   })
