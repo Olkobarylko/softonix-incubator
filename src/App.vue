@@ -1,12 +1,12 @@
 <template>
   <header class="flex justify-center">
     <div class="container pt-[24px] pb-[24px] min-h-[102px] flex items-center justify-between">
-      <div class="flex gap-[72px]">
+      <div class="flex space-x-[72px]">
         <a href="#">
           <img class="h-[35px] w-[98px]" src="./assets/styles/images/logo-img.png" alt="">
         </a>
         <nav class="pb-[9px]">
-          <ul class="pt-[4px] flex gap-[15px] lg:gap-[36px] font-poppins font-normal tracking-[0.01rem]">
+          <ul class="pt-[4px] flex space-x-[15px] lg:space-x-[36px] font-poppins font-normal tracking-[0.01rem]">
             <li>
               <a href="#">Home</a>
             </li>
@@ -27,7 +27,7 @@
       </div>
       <div>
         <a
-          class="flex items-center gap-[6px] pt-[15px] pb-[13px] pl-[34px]
+          class="flex items-center space-x-[6px] pt-[15px] pb-[13px] pl-[34px]
         pr-[34px] rounded-[27px] border-[1.4px] border-orng-true font-poppins font-medium text-orng-true"
           href="#"
         >
@@ -158,12 +158,12 @@
             be confused—they’re already grouped by category.
           </p>
         </div>
-        <div class="flex items-start gap-[16px]">
+        <div class="flex items-start space-x-[16px]">
           <img class="block" src="./assets/styles/images/arrow-left-icon.svg" alt="">
           <img class="block" src="./assets/styles/images/arrow-right-icon.svg" alt="">
         </div>
       </div>
-      <div class="mt-[60px] flex gap-[30px] justify-center">
+      <div class="mt-[60px] flex space-x-[30px] justify-center">
         <div class="max-w-fit">
           <div
             class="font-inter cursor-pointer font-semibold text-white-color text-[20px]
@@ -246,7 +246,7 @@
         <div
           class="absolute bottom-[-7px] right-[17px] bg-[#FFFFFF]
           pt-[20px] pb-[20px] pl-[16px] pr-[20px] rounded-[14px] flex
-          ustify-center text-center gap-[20px]"
+          ustify-center text-center space-x-[20px]"
         >
           <img class="w-[22px] h-[22px] ml-[auto] mr-[auto]" src="./assets/styles/images/radar-icon.svg" alt="">
           <div>
@@ -274,7 +274,7 @@
           destinations in the world as
           our specialties. Start your adventure now! Nature has already called you!
         </p>
-        <div class="flex mt-[39px] gap-[20px]">
+        <div class="flex mt-[39px] space-x-[20px]">
           <div class="pt-[30px] pl-[25px] pb-[26px] pr-[30px] bg-[#ffffffb3] rounded-[14px] w-[166px]">
             <h4 class="font-inter font-semibold text-orng-true text-[46px] leading-[46px]">
               12K+
@@ -315,12 +315,12 @@
             <br> Destination
           </h2>
         </div>
-        <div class="flex items-start gap-[16px] mt-[40px]">
+        <div class="flex items-start space-x-[16px] mt-[40px]">
           <img class="block" src="./assets/styles/images/arrow-left-icon.svg" alt="">
           <img class="block" src="./assets/styles/images/arrow-right-icon.svg" alt="">
         </div>
       </div>
-      <div class="flex gap-[30px]">
+      <div class="flex space-x-[30px]">
         <div
           class="pl-[11px] pr-[11px] pt-[12px] pb-[36px] border-[2px]
            border-solid border-[#FFFFFF] bg-[#FAF8ED] w-fit rounded-[16px] mt-[34px]"
@@ -597,7 +597,7 @@
                 <p class="mt-[15px] text-inter font-medium text-[20px] leading-none">Andrew Sarma</p>
                 <p class="mt-[8px] text-description-color text-[12px] leading-none">Enterpreneur</p>
               </div>
-              <div class="flex gap-[16px] mt-[15px]">
+              <div class="flex space-x-[16px] mt-[15px]">
                 <img class="w-[40px] h-[40px]" src="./assets/styles/images/arrow-left-icon.svg" alt="">
                 <img class="w-[40px] h-[40px]" src="./assets/styles/images/arrow-right-icon.svg" alt="">
               </div>
@@ -635,7 +635,7 @@
           <p class="mt-[20px] font-inter font-normal text-description-color text-[16px] leading-[26px] mt-[15px]">
             Enjoy the touring <br> with Salty
           </p>
-          <div class="flex gap-[14px] mt-[40px]">
+          <div class="flex space-x-[14px] mt-[40px]">
             <svg
               class="socials" width="32" height="32" viewBox="0 0 32 32" fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -792,7 +792,7 @@
       <div class="max-w-[754px] w-[100%] flex justify-between">
         <div>
           <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Resources</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px]">
+          <ul class="mt-[25px] text-[#676A6C] flex flex-col space-y-[10px]">
             <li><a href="#">Download</a></li>
             <li><a href="#">Help Center</a></li>
             <li><a href="#">Guide Book</a></li>
@@ -801,7 +801,7 @@
         </div>
         <div>
           <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Travellers</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px]">
+          <ul class="mt-[25px] text-[#676A6C] flex flex-col space-y-[10px]">
             <li><a href="#">Why Travellers</a></li>
             <li><a href="#">Enterprice</a></li>
             <li><a href="#">Customer Stories</a></li>
@@ -810,7 +810,7 @@
         </div>
         <div>
           <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Company</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px]">
+          <ul class="mt-[25px] text-[#676A6C] flex flex-col space-y-[10px]">
             <li><a href="#">Travelling</a></li>
             <li><a href="#">About Locato</a></li>
             <li><a href="#">Success</a></li>
@@ -819,7 +819,7 @@
         </div>
         <div>
           <h3 class="font-inter font-medium text-title-color text-[18px] leading-[18px] mt-[6px]">Get App</h3>
-          <ul class="mt-[25px] text-[#676A6C] flex flex-col gap-[10px] tracking-[-0.4px]">
+          <ul class="mt-[25px] text-[#676A6C] flex flex-col space-y-[10px] tracking-[-0.4px]">
             <li><a href="#">App Store</a></li>
             <li><a href="#">Google Play Store</a></li>
           </ul>
